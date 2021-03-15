@@ -1,0 +1,28 @@
+------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:/Users/thepe/Documents/GitHub/ACRE-Wu/results_staticcodebook_dt
+> a.log
+  log type:  text
+ opened on:  14 Mar 2021, 11:20:41
+
+. use "`dir_data'full_sample2019_stata_final.dta"
+file
+    C:/Users/thepe/Documents/GitHub/ACRE-Wu/datafull_sample2019_stata_final.
+    > dta not found
+r(601);
+
+end of do-file
+
+r(601);
+
+. do "C:\Users\thepe\AppData\Local\Temp\STD3cc0_000000.tmp"
+
+. * Static Analysis of the EJMR gender data 
+. * Alice Wu 
+. * Edited in May 2019
+. 
+. clear
+
+. set more off
+
+. capture log close
