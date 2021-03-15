@@ -1,6 +1,6 @@
 # Identify job rank through keywords at the post level
 
-dir_data="..data/"
+dir_data="../data/"
 
 # final data set
 full_sample=read.csv(paste0(dir_data,"full_sample2019.csv"),stringsAsFactors = FALSE)
